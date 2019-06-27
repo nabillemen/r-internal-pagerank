@@ -16,5 +16,5 @@ First, import this project by:
   - downloading it as a .zip file
 
 After installing R, editing the script to fit your needs (how to edit it is fully explained in the script comments), open your terminal, set current working directory to this project, and run:
-  - `install.packages("igraph", lib="[path to your R packages foler]")` if igraph package isn't installed yet
+  - `install.packages("igraph", lib="[R packages folder]")` if igraph package isn't installed yet (`lib` argument is where you want igraph package to be installed (it should be your R packages folder)
   - `Rscript internal_pagerank.R` (don't forget to add R executables folder to your PATH environment variable)
