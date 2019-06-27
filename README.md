@@ -1,4 +1,4 @@
-# Calculate Internal PageRank From Crawler CSV Export Using R
+# Calculate Internal PageRank From Crawler CSV Export
 Calculate Internal PageRank using R script
 
 Please note that the script featured here filters the dataset before parsing, only taking into account link from page to page (links to images, CSS and JavaScript resources are ignored).
