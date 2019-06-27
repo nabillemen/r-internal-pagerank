@@ -13,4 +13,4 @@ Credit: [Paul Shapiro from Search Engine Land](https://searchengineland.com/impr
 ## How to use it
 After installing R, editing the script to fit your needs (how to edit it is fully explained in the script comments), run:
   - `install.packages("igraph", lib="[path to your R packages foler]")` if igraph package isn't installed yet
-  - `Rscript internal_pagerank.R`
+  - `Rscript internal_pagerank.R` (don't forget to add R executables folder to your PATH environment variable)
