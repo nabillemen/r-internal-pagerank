@@ -1,3 +1,4 @@
+# Indicate your path to folder containing igraph package
 library("igraph", lib.loc="C:/Users/nabil/Documents/R/win-library/3.6", warn.conflicts = FALSE)
 # Swap out path to your Screaming Frog All Outlink CSV. For Windows, remember to change backslashes to forward slashes.
 links <- read.csv("C:/Users/nabil/projects/r/all_outlinks_onlinegeniuses.csv", skip = 1) # CSV Path
